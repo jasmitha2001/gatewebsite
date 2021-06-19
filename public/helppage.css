@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.body{
+    font-family: sans-serif;
+}
+nav{
+    background-color: #222;
+    color:white;
+    width:100%;
+}
+.logo{
+    padding-left: 70px;
+    line-height: 60px;
+    font-size: 28px;
+}
+nav ul{
+    float : right;
+    margin-right: 80px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 20px;
+    line-height: 45px;
+    font-size: 20px;
+    margin-top:8px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding : 7px 13px;
+}
+.toggle{
+    float : right;
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+    margin-right: 40px;
+    align-items: center;
+    display: none;
+    cursor: pointer;
+}
+#check{
+    display:none;
+} 
+@media (max-width: 996px){
+    .logo{
+        padding-left: 40px;
+        font-size: 25px;
+    }
+    .toggle{
+        display: block;
+    }
+    nav ul{
+        position: fixed;
+        background-color: #256;
+        text-align: center;
+        width:100%;
+        left:-100%;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+        font-size: 20px;
+    }
+    #check:checked ~ul{
+    left:0;
+    }
+}
+a:hover{
+    background-color:yellow;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.first{
+    line-height: 0px;
+}
+
+.lakshmi{
+  margin-top:255px;
+  margin-left:695px;
+  color:red;
+}
+.padma{
+  padding-top:-40px;
+  margin-left:652px;
+  color:black;
+}
+.val{
+  margin-top:200px;
+}
+.vathi{
+	padding-top: 20px;
+}
+.naga{
+    margin-left: 150px;
+	padding-top: 20px;
+}
+.sri{
+    background-color:white;
+}

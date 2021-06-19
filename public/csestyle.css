@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.body{
+    font-family: sans-serif;
+}
+nav{
+    background-color: #222;
+    color:white;
+    width:100%;
+}
+.logo{
+    padding-left: 70px;
+    line-height: 60px;
+    font-size: 28px;
+}
+nav ul{
+    float : right;
+    margin-right: 80px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 20px;
+    line-height: 60px;
+    font-size: 20px;
+
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding : 7px 13px;
+}
+.toggle{
+    float : right;
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+    margin-right: 40px;
+    align-items: center;
+    display: none;
+    cursor: pointer;
+}
+#check{
+    display:none;
+} 
+@media (max-width: 996px){
+    .logo{
+        padding-left: 40px;
+        font-size: 25px;
+    }
+    .toggle{
+        display: block;
+    }
+    nav ul{
+        position: fixed;
+        background-color: #256;
+        text-align: center;
+        width:100%;
+        left:-100%;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+        font-size: 20px;
+    }
+    #check:checked ~ul{
+    left:0;
+    }
+}
+a:hover{
+    background-color:yellow;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.header{
+    margin: auto;
+    background-image: url("https://www.icriindia.com/blog/wp-content/uploads/2019/08/GPAT-2019-825x430.jpeg");
+    background-size:cover;
+    height:500px;
+}
+.text-center {
+    margin-right:250px;
+    color: black;
+    font-size: 20px;
+    padding-top: 160px;
+    font-weight: 500;
+}
+.text-center h1{
+    font-weight: 500;
+}
+.cards1{
+    margin-top: 100px;
+    height:230px;
+}
+.image{
+    height:182px;
+}
+.image1{
+    height:182px;
+}
+.image2{
+    height:182px;
+}
+.cards2{
+    margin-top:200px;
+}
+.button1{
+    margin-top:1px;
+}
+.text1{
+    margin-top:17px;
+}
+.title1{
+    margin-top:8px;
+}
+.title2{
+    margin-top:8px;
+}
+.button2{
+    margin-top:1px;
+}
+.text2{
+    margin-top:17px;
+}
+.cards3{
+    margin-top: 60px;
+}
+.cardsin{
+    margin-left:200px;
+    margin-top:60px;
+    margin-bottom: 100px;
+}
+.cse{
+    margin-right:1px;
+    color:black;
+    font-size: 68px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    text-shadow: 2px 2px 9px #FF0000;
+}

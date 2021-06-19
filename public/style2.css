@@ -1,0 +1,120 @@
+a{
+	text-decoration: none;
+}
+body{
+	background-image:url("https://thumbs.dreamstime.com/z/colorful-bright-background-multi-colored-sticks-sweet-nice-candy-macro-shooting-149553309.jpg");
+	margin-top:100px;
+	font-family: 'Roboto', sans-serif;
+	margin-top:180px;
+}
+.inputfield1{
+	border-radius: 20px;
+	border:0.5px solid #D2CECE;
+	margin-top:60px;
+	padding: 12px;
+	margin-left:5px;
+	margin-bottom:6px;
+	margin-right: 6px;
+	padding-left: 20px;
+	background-color:white;
+	color:black;
+	font-weight: bold;
+	font-weight: 600;
+	width:65%;
+	font-size:12px;
+}
+.inputfield2{
+	border-radius: 20px;
+	padding: 12px;
+	border:0.5px solid #e2e2e2;
+	margin-left:5px;
+	margin-right:5px;
+	margin-top:8px;
+	padding-left: 20px;
+	color:black;
+	font-size: 12px;
+	font-weight: bold;
+	font-weight: 620;
+	background-color:white;
+	width:65%;
+	outline:none;
+}
+p{
+	padding-left: 90px;
+	font-size: 12px;
+	color:#a2a2a2;
+}
+.submitbutton{
+	border-radius: 18px;
+	border:2px solid #e0079b;
+	padding:9px;
+	margin-left:5px;
+	margin-right:5px;
+	width:73%;
+	outline:none;
+	background-color:#e0079b;
+	color:white;
+	margin-top:20px;
+	margin-bottom: 40px;
+	font-weight: 200;
+}
+/*#57B846*/
+h1 span{
+	border:1px solid #4d4d4d;
+	border-bottom:1px solid white; 
+	margin-top:10px;
+	border-top-left-radius: 16px;
+	border-top-right-radius: 16px;
+	background-color: black;
+	padding-top:30px;
+	padding-bottom:35px;
+	padding-left: 115px;
+	padding-right:119px;
+	border-width: 30%;
+	background:cover;
+	color:white;
+	margin-bottom: 20px;
+	font-weight:25;
+	font-size: 22px;
+	font-family:serif; 
+}
+.text{
+	padding-right:100px;
+	color:white;
+	font-size: 16px;
+	font-weight: 100;
+}
+.code{
+	background-color:black;
+	margin-top:25px;
+	margin-left:580px;
+	margin-right:580px;
+	padding-bottom: 10px;
+	border:1px solid #303030;
+	border-bottom-left-radius: 16px;
+	border-bottom-right-radius: 16px;
+}
+.btn {
+  display: inline-block;
+  line-height: 30px;
+  padding: 0 18px;
+  font-family: Poppins, Arial, "Helvetica Neue", sans-serif;
+  cursor: pointer;
+  color: #fff;
+  font-size: 15px;
+}
+
+.btn--radius {
+  border-radius: 3px;
+}
+
+.btn--pill {
+  border-radius: 20px;
+}
+
+.btn--green {
+  border:2px solid #03fcec;
+  background: #03fcec;
+  margin-bottom:20px;
+}
+
