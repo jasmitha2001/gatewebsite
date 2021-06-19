@@ -1,2 +1,1 @@
-# gatewebsite
-GATE preparation website
+# GATE.github.io
