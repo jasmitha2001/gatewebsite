@@ -10,9 +10,7 @@ var db=mongojs(cstring,['users'])
 
 //MongoDB ConnectionString Example : mongodb://username:password@cluster0-shard-00-00-0hsgx.mongodb.net:27017/databaseName?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin
 
-app.get('/', function(req,res){
-	res.sendFile(__dirname+'/public/index.html')
-})
+
 
 app.get('/login', function(req,res){
 	res.sendFile(__dirname+'/public/login.html')	
